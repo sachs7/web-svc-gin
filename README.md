@@ -11,6 +11,29 @@
 6. kubectl describe svc <service name>
 7. kubectl cluster-info (to get the IP address)
 8. curl http://<IP.from.above>:,nodePort-from-step-5>/albums
+```
+curl http://192.168.99.100:32262/albums
+[
+    {
+        "id": "1",
+        "title": "Blue Train",
+        "artist": "John Coltrane",
+        "country": "United States"
+    },
+    {
+        "id": "2",
+        "title": "Jeru",
+        "artist": "Gerry Mulligan",
+        "country": "United Kingdom"
+    },
+    {
+        "id": "3",
+        "title": "Sarah Vaughan and Clifford Brown",
+        "artist": "Sarah Vaughan",
+        "country": "India"
+    }
+]
+```
 
 # To Run functional tests [as Jobs]
    
