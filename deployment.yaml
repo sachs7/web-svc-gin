@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: godemo-gin
+spec:
+  selector:
+    matchLabels:
+      run: godemo-gin
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: godemo-gin
+    spec:
+      containers:
+        - name: godemo-gin
+          image: sachs7/web-svc-gin:v1.2
+          ports:
+            - containerPort: 8082
+          imagePullPolicy: IfNotPresent
+        - name: liveness
+          image: k8s.gcr.io/busybox
+          args:
+          - /bin/sh
+          - -c
+          - touch /tmp/healthy; sleep 30; rm -rf /tmp/healthy; sleep 600
+          livenessProbe:
+            exec:
+              command:
+              - cat
+              - /tmp/healthy
+            initialDelaySeconds: 5
+            periodSeconds: 5
