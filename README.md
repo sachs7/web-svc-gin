@@ -48,16 +48,16 @@ cachedir: .pytest_cache
 rootdir: /app
 collecting ... http://192.168.99.100
 collected 3 items
-
-test_get_albums.py::test_get_albums http://192.168.99.100:31005/albums
-200
-[{'id': '1', 'title': 'Blue Train', 'artist': 'John Coltrane', 'country': 'United States'}, {'id': '2', 'title': 'Jeru', 'artist': 'Gerry Mulligan', 'country': 'United Kingdom'}, {'id': '3', 'title': 'Sarah Vaughan and Clifford Brown', 'artist': 'Sarah Vaughan', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}]
-PASSED
-test_get_albums.py::test_get_album_with_id {'id': '2', 'title': 'Jeru', 'artist': 'Gerry Mulligan', 'country': 'United Kingdom'}
-PASSED
-test_get_albums.py::test_post_create_album {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}
-201
-[{'id': '1', 'title': 'Blue Train', 'artist': 'John Coltrane', 'country': 'United States'}, {'id': '2', 'title': 'Jeru', 'artist': 'Gerry Mulligan', 'country': 'United Kingdom'}, {'id': '3', 'title': 'Sarah Vaughan and Clifford Brown', 'artist': 'Sarah Vaughan', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}]
-PASSED
-
+```
+   test_get_albums.py::test_get_albums http://192.168.99.100:31005/albums
+   200
+   [{'id': '1', 'title': 'Blue Train', 'artist': 'John Coltrane', 'country': 'United States'}, {'id': '2', 'title': 'Jeru', 'artist': 'Gerry Mulligan', 'country': 'United Kingdom'}, {'id': '3', 'title': 'Sarah Vaughan and Clifford Brown', 'artist': 'Sarah Vaughan', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}]
+   PASSED
+   test_get_albums.py::test_get_album_with_id {'id': '2', 'title': 'Jeru', 'artist': 'Gerry Mulligan', 'country': 'United Kingdom'}
+   PASSED
+   test_get_albums.py::test_post_create_album {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}
+   201
+   [{'id': '1', 'title': 'Blue Train', 'artist': 'John Coltrane', 'country': 'United States'}, {'id': '2', 'title': 'Jeru', 'artist': 'Gerry Mulligan', 'country': 'United Kingdom'}, {'id': '3', 'title': 'Sarah Vaughan and Clifford Brown', 'artist': 'Sarah Vaughan', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}, {'id': '', 'title': 'Ero', 'artist': 'Enigma', 'country': 'India'}]
+   PASSED
+```
 ============================== 3 passed in 0.09s ===============================
