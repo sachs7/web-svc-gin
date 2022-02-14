@@ -12,6 +12,8 @@
 7. curl http://<IP.from.above>:,nodePort-from-step-5>/albums
 
 # To Run functional tests [as Jobs]
+   
+   [Test Repo](https://github.com/sachs7/pytest-web-svc-gin)
 
 1. Functional tests are run as `Job` in k8s cluster
 2. Exmaple tests - <PATH-TO-FUNCTIONAL-TESTS>/pytest-web-svc-gin
