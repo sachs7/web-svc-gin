@@ -13,16 +13,16 @@ func main() {
 	router.GET("/albums", server.GetAlbums)
 	router.GET("/albums/:id", server.GetAlbumByID)
 	router.POST("/albums", server.PostAlbums)
-	router.GET("/readiness", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"status": "readiness - UP",
-		})
-	})
-	router.GET("/liveness", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"status": "liveness - LIVE",
-		})
-	})
+// 	router.GET("/readiness", func(c *gin.Context) {
+// 		c.JSON(200, gin.H{
+// 			"status": "readiness - UP",
+// 		})
+// 	})
+// 	router.GET("/liveness", func(c *gin.Context) {
+// 		c.JSON(200, gin.H{
+// 			"status": "liveness - LIVE",
+// 		})
+// 	})
 
 	router.Run("0.0.0.0:8082")
 
