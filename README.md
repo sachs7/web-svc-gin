@@ -1,3 +1,5 @@
+# Steps to build and start the web server
+
 1. docker build --tag sachs7/web-svc-gin:v1.0 .
 2. docker run --rm -p 8082:8082 sachs7/web-svc-gin:v1.0
 3. docker push sachs7/web-svc-gin:v1.0
@@ -7,12 +9,12 @@
    3. kubectl apply -f service.yaml
 5. kubectl describe svc <service name>
 6. kubectl cluster-info (to get the IP address)
-7. curl http://IP.from.above:nodePort-from-step-5
+7. curl http://<IP.from.above>:,nodePort-from-step-5>/albums
 
 # To Run functional tests [as Jobs]
 
 1. Functional tests are run as `Job` in k8s cluster
-2. Exmaple tests - /Users/uplaonka/Desktop/Sachin/Learn/apis/pytest-web-svc-gin
+2. Exmaple tests - <PATH-TO-FUNCTIONAL-TESTS>/pytest-web-svc-gin
 3. kubectl apply -f func-tests.yaml -- to run the job
 4. kubectl get pods -n my-func-tests
 5. kubectl logs -f goweb-gin-tests-dbz2s -n my-func-tests
@@ -33,7 +35,7 @@ goweb-gin-tests-dbz2s   0/1     Completed   0          119s
 
 # To Run functional tests as a deployment
 
-1. Exmaple tests - /Users/uplaonka/Desktop/Sachin/Learn/apis/pytest-web-svc-gin
+1. Exmaple tests - <PATH-TO-FUNCTIONAL-TESTS>/pytest-web-svc-gin
 2. kubectl apply -f test-using-deployment.yaml
 3. Pod will go into crashLoopStage after running the automated tests
 4. kubectl logs -f test-84d74c4964-4bj2j                     
