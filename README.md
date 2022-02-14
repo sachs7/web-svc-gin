@@ -3,13 +3,14 @@
 1. docker build --tag sachs7/web-svc-gin:v1.0 .
 2. docker run --rm -p 8082:8082 sachs7/web-svc-gin:v1.0
 3. docker push sachs7/web-svc-gin:v1.0
-4. kubectl apply -f web-svc-k8s.yaml  (handles both deployment and service)
+4. Use `Minikube` to start the single node cluster
+5. kubectl apply -f web-svc-k8s.yaml  (handles both deployment and service)
    1. if want to execute deployment and service files
    2. kubectl apply -f deployment.yaml 
    3. kubectl apply -f service.yaml
-5. kubectl describe svc <service name>
-6. kubectl cluster-info (to get the IP address)
-7. curl http://<IP.from.above>:,nodePort-from-step-5>/albums
+6. kubectl describe svc <service name>
+7. kubectl cluster-info (to get the IP address)
+8. curl http://<IP.from.above>:,nodePort-from-step-5>/albums
 
 # To Run functional tests [as Jobs]
    
