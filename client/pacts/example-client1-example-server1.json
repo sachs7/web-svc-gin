@@ -1,0 +1,45 @@
+{
+  "consumer": {
+    "name": "example-client1"
+  },
+  "provider": {
+    "name": "example-server1"
+  },
+  "interactions": [
+    {
+      "description": "Album 'Blue Train' is requested",
+      "providerState": "Album 'Blue Train' exists",
+      "request": {
+        "method": "GET",
+        "path": "/albums/1",
+        "matchingRules": {
+          "$.path": {
+            "match": "regex",
+            "regex": "\\/albums\\/[0-9]+"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+          "id": "1",
+          "title": "Blue Train",
+          "artist": "John Coltrane",
+          "country": ""
+        },
+        "matchingRules": {
+          "$.body": {
+            "match": "type"
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

@@ -1,0 +1,264 @@
+# Logfile created on 2021-12-24 18:55:28 -0800 by logger.rb/47272
+I, [2021-12-24T18:55:28.646120 #41368]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2021-12-24T18:55:28.646262 #41368]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2021-12-24T18:55:28.646293 #41368] DEBUG -- : body :
+I, [2021-12-24T18:55:28.661614 #41368]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sat, 25 Dec 2021 02:55:28 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-24T18:55:28.661682 #41368] DEBUG -- : body: 
+W, [2021-12-24T18:55:28.665395 #41368]  WARN -- : No content type found, performing text diff on body
+I, [2021-12-24T18:56:27.228652 #41511]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2021-12-24T18:56:27.228801 #41511]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2021-12-24T18:56:27.228830 #41511] DEBUG -- : body :
+I, [2021-12-24T18:56:27.241606 #41511]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sat, 25 Dec 2021 02:56:27 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-24T18:56:27.241662 #41511] DEBUG -- : body: 
+W, [2021-12-24T18:56:27.244347 #41511]  WARN -- : No content type found, performing text diff on body
+I, [2021-12-24T18:56:53.644492 #41643]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2021-12-24T18:56:53.644628 #41643]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2021-12-24T18:56:53.644656 #41643] DEBUG -- : body :
+I, [2021-12-24T18:56:53.684374 #41643]  INFO -- : Received response with status: 200, headers: {"Cache-Control"=>"no-cache, no-store", "Content-Type"=>"text/html; charset=utf-8", "Pragma"=>"no-cache", "X-Content-Type-Options"=>"nosniff", "X-Frame-Options"=>"DENY", "Date"=>"Sat, 25 Dec 2021 02:56:53 GMT", "Content-Length"=>"1772"}, see debug logs for body
+D, [2021-12-24T18:56:53.684449 #41643] DEBUG -- : body: <html><head><title>Burp Suite Community Edition</title>
+<style type="text/css">
+body { background: #dedede; font-family: Arial, sans-serif; color: #404042; -webkit-font-smoothing: antialiased; }
+#container { padding: 0 15px; margin: 10px auto; background-color: #ffffff; }
+a { word-wrap: break-word; }
+a:link, a:visited { color: #e06228; text-decoration: none; }
+a:hover, a:active { color: #404042; text-decoration: underline; }
+h1 { font-size: 1.6em; line-height: 1.2em; font-weight: normal; color: #404042; }
+h2 { font-size: 1.3em; line-height: 1.2em; padding: 0; margin: 0.8em 0 0.3em 0; font-weight: normal; color: #404042;}
+.title, .navbar { color: #ffffff; background: #e06228; padding: 10px 15px; margin: 0 -15px 10px -15px; overflow: hidden; }
+.title h1 { color: #ffffff; padding: 0; margin: 0; font-size: 1.8em; }
+div.navbar {position: absolute; top: 18px; right: 25px;}
+div.navbar ul {list-style-type: none; margin: 0; padding: 0;}
+div.navbar li {display: inline; margin-left: 20px;}
+div.navbar a {color: white; padding: 10px}
+div.navbar a:hover, div.navbar a:active {text-decoration: none; background: #404042;}
+</style>
+</head>
+<body>
+<div id="container">
+<div class="title"><h1>Burp Suite Community Edition</h1></div>
+<h1>Error</h1><p>Invalid&#32;client&#32;request&#32;received&#58;&#32;First&#32;line&#32;of&#32;request&#32;did&#32;not&#32;contain&#32;an&#32;absolute&#32;URL&#32;&#45;&#32;try&#32;enabling&#32;invisible&#32;proxy&#32;support&#46;</p>
+<div class="request">GET&nbsp;/albums/albums/1&nbsp;HTTP/1.1<br>
+Host:&nbsp;localhost:8080<br>
+User-Agent:&nbsp;Pact&nbsp;Go<br>
+Cookie:&nbsp;<br>
+X-Forwarded-For:&nbsp;127.0.0.1,&nbsp;::1<br>
+Accept-Encoding:&nbsp;gzip<br>
+<br>
+</div><p>&nbsp;</p>
+</div>
+</body>
+</html>
+
+I, [2021-12-24T18:57:32.570929 #41861]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2021-12-24T18:57:32.571063 #41861]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2021-12-24T18:57:32.571092 #41861] DEBUG -- : body :
+I, [2021-12-24T18:57:32.583745 #41861]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sat, 25 Dec 2021 02:57:32 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-24T18:57:32.583865 #41861] DEBUG -- : body: 
+W, [2021-12-24T18:57:32.586496 #41861]  WARN -- : No content type found, performing text diff on body
+I, [2021-12-24T19:09:02.644727 #42111]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2021-12-24T19:09:02.644862 #42111]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2021-12-24T19:09:02.644891 #42111] DEBUG -- : body :
+I, [2021-12-24T19:09:02.657383 #42111]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sat, 25 Dec 2021 03:09:02 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-12-24T19:09:02.657534 #42111] DEBUG -- : body: 
+W, [2021-12-24T19:09:02.660152 #42111]  WARN -- : No content type found, performing text diff on body
+I, [2021-12-24T19:09:37.524378 #42292]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2021-12-24T19:09:37.524509 #42292]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2021-12-24T19:09:37.524538 #42292] DEBUG -- : body :
+I, [2021-12-24T19:09:37.537829 #42292]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"95", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Sat, 25 Dec 2021 03:09:37 GMT"}, see debug logs for body
+D, [2021-12-24T19:09:37.537905 #42292] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "price": 56.99
+}
+I, [2021-12-24T19:14:26.922927 #43255]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2021-12-24T19:14:26.923374 #43255]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2021-12-24T19:14:26.923426 #43255] DEBUG -- : body :
+I, [2021-12-24T19:14:26.937314 #43255]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"127", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Sat, 25 Dec 2021 03:14:26 GMT"}, see debug logs for body
+D, [2021-12-24T19:14:26.937421 #43255] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "price": 56.99,
+    "country": "United States"
+}
+I, [2021-12-24T19:16:43.149767 #43788]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2021-12-24T19:16:43.150201 #43788]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2021-12-24T19:16:43.150242 #43788] DEBUG -- : body :
+I, [2021-12-24T19:16:43.165992 #43788]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"107", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Sat, 25 Dec 2021 03:16:43 GMT"}, see debug logs for body
+D, [2021-12-24T19:16:43.166053 #43788] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "country": "United States"
+}
+I, [2021-12-24T19:22:34.044497 #44089]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2021-12-24T19:22:34.044893 #44089]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2021-12-24T19:22:34.044924 #44089] DEBUG -- : body :
+I, [2021-12-24T19:22:34.059783 #44089]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"107", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Sat, 25 Dec 2021 03:22:34 GMT"}, see debug logs for body
+D, [2021-12-24T19:22:34.059930 #44089] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "country": "United States"
+}
+I, [2022-02-09T19:17:15.588376 #66581]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:17:15.588882 #66581]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:17:15.588922 #66581] DEBUG -- : body :
+I, [2022-02-09T19:17:15.608259 #66581]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"107", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:17:15 GMT"}, see debug logs for body
+D, [2022-02-09T19:17:15.608346 #66581] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "country": "United States"
+}
+I, [2022-02-09T19:20:56.914035 #67238]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:20:56.914396 #67238]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:20:56.914422 #67238] DEBUG -- : body :
+I, [2022-02-09T19:20:56.928380 #67238]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"127", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:20:56 GMT"}, see debug logs for body
+D, [2022-02-09T19:20:56.928442 #67238] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "price": 56.99,
+    "country": "United States"
+}
+I, [2022-02-09T19:21:46.030628 #67523]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:21:46.030753 #67523]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:21:46.030780 #67523] DEBUG -- : body :
+I, [2022-02-09T19:21:46.043227 #67523]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"127", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:21:46 GMT"}, see debug logs for body
+D, [2022-02-09T19:21:46.043361 #67523] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "price": 56.99,
+    "country": "United States"
+}
+I, [2022-02-09T19:22:12.497629 #67742]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:22:12.497764 #67742]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:22:12.497794 #67742] DEBUG -- : body :
+I, [2022-02-09T19:22:12.510761 #67742]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"127", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:22:12 GMT"}, see debug logs for body
+D, [2022-02-09T19:22:12.510829 #67742] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "price": 56.99,
+    "country": "United States"
+}
+I, [2022-02-09T19:23:36.579319 #68233]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:23:36.579449 #68233]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:23:36.579479 #68233] DEBUG -- : body :
+I, [2022-02-09T19:23:36.592929 #68233]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"123", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:23:36 GMT"}, see debug logs for body
+D, [2022-02-09T19:23:36.593012 #68233] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "price": 0,
+    "country": "United States"
+}
+I, [2022-02-09T19:23:54.266980 #68382]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:23:54.267112 #68382]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:23:54.267142 #68382] DEBUG -- : body :
+I, [2022-02-09T19:23:54.279895 #68382]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"123", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:23:54 GMT"}, see debug logs for body
+D, [2022-02-09T19:23:54.280007 #68382] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "price": 0,
+    "country": "United States"
+}
+I, [2022-02-09T19:30:55.259205 #69696]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:30:55.259530 #69696]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:30:55.259556 #69696] DEBUG -- : body :
+I, [2022-02-09T19:30:55.273429 #69696]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"127", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:30:55 GMT"}, see debug logs for body
+D, [2022-02-09T19:30:55.273515 #69696] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "price": 56.99,
+    "country": "United States"
+}
+I, [2022-02-09T19:34:17.928390 #70576]  INFO -- : Running example 'Verifying a pact between example-client and example-server Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:34:17.928515 #70576]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:34:17.928537 #70576] DEBUG -- : body :
+I, [2022-02-09T19:34:17.940841 #70576]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"127", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:34:17 GMT"}, see debug logs for body
+D, [2022-02-09T19:34:17.940929 #70576] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "price": 56.99,
+    "country": "United States"
+}
+I, [2022-02-09T19:44:58.448311 #72606]  INFO -- : Running example 'Verifying a pact between example-client1 and example-server1 Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:44:58.448692 #72606]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:44:58.448724 #72606] DEBUG -- : body :
+I, [2022-02-09T19:44:58.463652 #72606]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"123", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:44:58 GMT"}, see debug logs for body
+D, [2022-02-09T19:44:58.463773 #72606] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "price": 0,
+    "country": "United States"
+}
+I, [2022-02-09T19:46:06.690934 #72986]  INFO -- : Running example 'Verifying a pact between example-client1 and example-server1 Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:46:06.691326 #72986]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:46:06.691382 #72986] DEBUG -- : body :
+I, [2022-02-09T19:46:06.705210 #72986]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"107", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:46:06 GMT"}, see debug logs for body
+D, [2022-02-09T19:46:06.705312 #72986] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "country": "United States"
+}
+I, [2022-02-09T19:46:59.719033 #73284]  INFO -- : Running example 'Verifying a pact between example-client1 and example-server1 Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:46:59.719195 #73284]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:46:59.719226 #73284] DEBUG -- : body :
+I, [2022-02-09T19:46:59.732436 #73284]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"107", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:46:59 GMT"}, see debug logs for body
+D, [2022-02-09T19:46:59.732514 #73284] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "country": "United States"
+}
+I, [2022-02-09T19:49:32.565371 #74243]  INFO -- : Running example 'Verifying a pact between example-client1 and example-server1 Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:49:32.565717 #74243]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:49:32.565748 #74243] DEBUG -- : body :
+I, [2022-02-09T19:49:32.579541 #74243]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"127", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:49:32 GMT"}, see debug logs for body
+D, [2022-02-09T19:49:32.579609 #74243] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "price": 56.99,
+    "country": "United States"
+}
+I, [2022-02-09T19:54:14.212814 #75660]  INFO -- : Running example 'Verifying a pact between example-client1 and example-server1 Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:54:14.213363 #75660]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:54:14.213409 #75660] DEBUG -- : body :
+I, [2022-02-09T19:54:14.228267 #75660]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"127", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:54:14 GMT"}, see debug logs for body
+D, [2022-02-09T19:54:14.228376 #75660] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "price": 56.99,
+    "country": "United States"
+}
+I, [2022-02-09T19:55:15.816881 #76177]  INFO -- : Running example 'Verifying a pact between example-client1 and example-server1 Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:55:15.817217 #76177]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:55:15.817248 #76177] DEBUG -- : body :
+I, [2022-02-09T19:55:15.831228 #76177]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"107", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:55:15 GMT"}, see debug logs for body
+D, [2022-02-09T19:55:15.831309 #76177] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "country": "United States"
+}
+I, [2022-02-09T19:56:59.104822 #76811]  INFO -- : Running example 'Verifying a pact between example-client1 and example-server1 Given Album 'Blue Train' exists Album 'Blue Train' is requested with GET /albums/1 returns a response which has status code 200'
+I, [2022-02-09T19:56:59.105210 #76811]  INFO -- : Sending GET request to path: "/albums/1" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Album 'Blue Train' exists"}]}, see debug logs for body
+D, [2022-02-09T19:56:59.105242 #76811] DEBUG -- : body :
+I, [2022-02-09T19:56:59.119699 #76811]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"107", "Content-Type"=>"application/json; charset=utf-8", "Date"=>"Thu, 10 Feb 2022 03:56:59 GMT"}, see debug logs for body
+D, [2022-02-09T19:56:59.119775 #76811] DEBUG -- : body: {
+    "id": "1",
+    "title": "Blue Train",
+    "artist": "John Coltrane",
+    "country": "United States"
+}

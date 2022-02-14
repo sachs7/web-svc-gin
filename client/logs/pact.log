@@ -1,0 +1,64 @@
+I, [2022-02-09T19:56:47.271551 #76704]  INFO -- : Registered expected interaction GET /albums/1
+D, [2022-02-09T19:56:47.271772 #76704] DEBUG -- : {
+  "description": "Album 'Blue Train' is requested",
+  "providerState": "Album 'Blue Train' exists",
+  "request": {
+    "method": "GET",
+    "path": {
+      "json_class": "Pact::Term",
+      "data": {
+        "generate": "/albums/1",
+        "matcher": {
+          "json_class": "Regexp",
+          "o": 0,
+          "s": "/albums/[0-9]+"
+        }
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+    },
+    "body": {
+      "json_class": "Pact::SomethingLike",
+      "contents": {
+        "id": "1",
+        "title": "Blue Train",
+        "artist": "John Coltrane",
+        "country": ""
+      }
+    }
+  },
+  "metadata": null
+}
+I, [2022-02-09T19:56:47.274014 #76704]  INFO -- : Received request GET /albums/1
+D, [2022-02-09T19:56:47.274121 #76704] DEBUG -- : {
+  "path": "/albums/1",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Host": "localhost:51543",
+    "User-Agent": "Go-http-client/1.1",
+    "Accept-Encoding": "gzip",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2022-02-09T19:56:47.274504 #76704]  INFO -- : Found matching response for GET /albums/1
+D, [2022-02-09T19:56:47.274581 #76704] DEBUG -- : {
+  "status": 200,
+  "headers": {
+  },
+  "body": {
+    "json_class": "Pact::SomethingLike",
+    "contents": {
+      "id": "1",
+      "title": "Blue Train",
+      "artist": "John Coltrane",
+      "country": ""
+    }
+  }
+}
+I, [2022-02-09T19:56:47.276465 #76704]  INFO -- : Verifying - interactions matched
+I, [2022-02-09T19:56:47.278379 #76704]  INFO -- : Cleared interactions
+I, [2022-02-09T19:56:47.280763 #76704]  INFO -- : Writing pact for example-server1 to /Users/uplaonka/Desktop/Sachin/Learn/codeInGO/web-service-gin/client/pacts/example-client1-example-server1.json
