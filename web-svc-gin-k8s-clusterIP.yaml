@@ -1,0 +1,41 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+    name: my-svc
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: godemo-gin
+  namespace: my-svc
+spec:
+  selector:
+    matchLabels:
+      run: godemo-gin
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: godemo-gin
+    spec:
+      containers:
+        - name: godemo-gin
+          image: sachs7/web-svc-gin:v1.2
+          ports:
+            - containerPort: 8082
+          imagePullPolicy: IfNotPresent
+---
+apiVersion: v1
+kind: Service
+metadata:  
+  name: godemo-gin-service
+  namespace: my-svc
+spec:
+  selector:    
+    run: godemo-gin
+  type: ClusterIP
+  ports:  
+  - name: http
+    port: 8082
+    targetPort: 8082
+    protocol: TCP
